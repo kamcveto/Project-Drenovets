@@ -6,7 +6,7 @@
 }
 body{
     height: 100%;
-    background: linear-gradient(-45deg, #101820FF 71.5%,#006B38FF 40%);
+    background: linear-gradient(-45deg, #101820FF 70.79%,#006B38FF 40%);
 }
 .menu{
     height: 13em;
@@ -31,9 +31,6 @@ body{
     display: none;
     cursor: pointer;
     z-index: 100;
-}
-.menu1 li:hover{
-    background-color: #006B38FF;
 }
 .menu ul li:hover .drop_menu{
     display: block;
@@ -72,6 +69,9 @@ body{
     width: 130.5px;
     padding:15px;
 }
+.menu1 li:hover{
+    background-color: #006B38FF;
+}
 .drop_menu ul li:hover {
     background-color: #006B38FF;
 }
@@ -97,56 +97,6 @@ a:visited{
 a:active{
     color: #fff;
 }
-.main_art{
-    min-height: 30em;
-    width: 80%;
-    position: relative;
-    display: block;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.6);
-    opacity: 1;
-    border-width: 5px;
-    border-color: #006B38FF;
-    border-style: outset;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-.map{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    display: block;
-    width: 400px;
-    height: 300px;
-    box-sizing:border-box;
-}
-iframe{
-    width:400px;
-    height:300px;
-}
-.news{
-    float: left;
-    min-height: 30em;
-    width: 67.4%;
-    box-sizing: border-box;
-    color:#141823;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.1em;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 15px;
-}
-.imp{
-    position: absolute;
-    display: block;
-    top: 301px;
-    right: 0;
-    width: 400px;
-    min-height: 10em;
-    color: #141823;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-sizing: border-box;
-}
 footer{
     height: 13em;
     width: 100%;
@@ -161,9 +111,24 @@ footer{
     height: 70px;
     width: 70px;
 }
-.news ul li{
-    list-style: circle;
+.finished{
+    min-height: 30em;
+    width: 80%;
+    position: relative;
+    display: block;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+    border-width: 5px;
+    border-color: #006B38FF;
+    border-style: outset;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-.news ul li::marker{
-    font-weight: bold;
+.finished ul{
+    padding-left: 22px;
+    font-size: 1.3em;
+}
+.finished ul li{
+    list-style: circle;
 }
